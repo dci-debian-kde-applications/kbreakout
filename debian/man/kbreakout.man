@@ -1,0 +1,18 @@
+.TH KBREAKOUT 6
+.SH NAME
+kbreakout \- KDE Breakout Game
+.SH SYNOPSIS
+.B kbreakout
+.I [Qt-options] [KDE-options]
+.SH DESCRIPTION
+.B kbreakout
+is a game similar to the classics breakout and xboing, featuring
+a number of added graphical enhancements and effects.  You control a paddle
+at the bottom of the playing-field, and must destroy bricks at the top
+by bouncing balls against them.
+.so kdeopt.part
+.SH SEE ALSO
+More detailed user documentation is available from
+.BR help:/kbreakout
+(either enter this URL into \fBkonqueror\fP, or run `khelpcenter
+help:/kbreakout').
