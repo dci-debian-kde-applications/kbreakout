@@ -1,6 +1,7 @@
 kbreakout (4:4.11.3-2) UNRELEASED; urgency=low
 
-  * 
+  * Add kde-games-core-declarative dependency, thanks to Ritesh Raj
+    Sarraf. (Closes: #729348)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Nov 2013 12:13:36 +0100
 
