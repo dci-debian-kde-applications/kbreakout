@@ -1,3 +1,9 @@
+kbreakout (4:4.11.3-3) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 30 Jan 2014 11:24:51 +0100
+
 kbreakout (4:4.11.3-2) unstable; urgency=low
 
   * Add kde-games-core-declarative dependency, thanks to Ritesh Raj
