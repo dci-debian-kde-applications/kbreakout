@@ -59,7 +59,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kbreakout.git
 
 Package: kbreakout
 Architecture: any
-Depends: kde-games-core-declarative, ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-org-kde-games-core, ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
 Description: ball and paddle game
  kbreakout is a game similar to the classics breakout and xboing, featuring
