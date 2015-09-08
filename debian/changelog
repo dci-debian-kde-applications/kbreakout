@@ -1,11 +1,11 @@
-kbreakout (4:15.08.0-1~) UNRELEASED; urgency=medium
+kbreakout (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
   * New upstream release (15.04.3).
   * New upstream release (15.08.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 16:32:45 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 17:54:14 +0200
 
 kbreakout (4:15.08.0-0ubuntu1) wily; urgency=medium
 
