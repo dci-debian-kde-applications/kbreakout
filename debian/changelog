@@ -1,3 +1,12 @@
+kbreakout (4:15.08.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Change build-dep on libkdegames-dev to libkf5kdegames-dev to match the
+    move to Kf5 (Closes: #801542)
+    - Thanks to Peter Green for the bug report and the solution
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 11 Oct 2015 18:32:12 -0400
+
 kbreakout (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
