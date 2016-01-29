@@ -1,8 +1,20 @@
+kbreakout (4:15.12.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:15:13 +0100
+
 kbreakout (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:40:34 +0000
+
+kbreakout (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:18 +0100
 
 kbreakout (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -16,6 +28,24 @@ kbreakout (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:18:28 +0100
+
+kbreakout (4:15.08.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Change build-dep on libkdegames-dev to libkf5kdegames-dev to match the
+    move to Kf5 (Closes: #801542)
+    - Thanks to Peter Green for the bug report and the solution
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 11 Oct 2015 18:32:12 -0400
+
+kbreakout (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.04.3).
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 17:54:14 +0200
 
 kbreakout (4:15.08.0-0ubuntu1) wily; urgency=medium
 
