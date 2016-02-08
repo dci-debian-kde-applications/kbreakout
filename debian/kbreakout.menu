@@ -1,9 +1,0 @@
-?package(kbreakout):\
-	needs="x11"\
-	section="Games/Action"\
-	hints="KDE,Breakout"\
-	title="KBreakout"\
-	icon32x32="/usr/share/pixmaps/kbreakout.xpm"\
-	icon16x16="/usr/share/pixmaps/kbreakout-16.xpm"\
-	command="/usr/games/kbreakout"
-
