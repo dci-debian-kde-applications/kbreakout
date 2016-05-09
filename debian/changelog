@@ -1,3 +1,12 @@
+kbreakout (4:16.04.0-1~1.gbp008adb) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @008adbfc9d2a54fc612b54adbb715053f215a266 **
+
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 03:18:18 +0200
+
 kbreakout (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
