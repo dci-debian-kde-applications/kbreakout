@@ -1,3 +1,11 @@
+kbreakout (4:16.08.0-1~1.gbp22f51e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @22f51e411df900219b88cf5674995839bc26824d **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 21:18:21 +0200
+
 kbreakout (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
