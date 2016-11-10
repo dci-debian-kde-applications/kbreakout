@@ -1,10 +1,11 @@
-kbreakout (4:16.08.0-2~1.gbpdaef77) UNRELEASED; urgency=medium
+kbreakout (4:16.08.3-1~1.gbp6dafc5) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @daef77de789326f273ed63d55ad61e984ad1ea59 **
+  ** SNAPSHOT build @6dafc546ba3eeb5fa1128ec5a19b4856460c256c **
 
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 19 Oct 2016 01:18:40 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 21:18:31 +0100
 
 kbreakout (4:16.08.0-1) unstable; urgency=medium
 
