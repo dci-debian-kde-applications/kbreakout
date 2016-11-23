@@ -1,11 +1,12 @@
-kbreakout (4:16.08.3-1~1.gbp6dafc5) UNRELEASED; urgency=medium
+kbreakout (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @6dafc546ba3eeb5fa1128ec5a19b4856460c256c **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 21:18:31 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.3)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 20:59:43 +0100
 
 kbreakout (4:16.08.0-1) unstable; urgency=medium
 
