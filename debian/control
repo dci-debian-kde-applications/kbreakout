@@ -42,6 +42,8 @@ Package: kbreakout
 Architecture: any
 Depends: qml-module-org-kde-games-core, ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: ball and paddle game
  kbreakout is a game similar to the classics breakout and xboing, featuring
  a number of added graphical enhancements and effects.  You control a paddle
