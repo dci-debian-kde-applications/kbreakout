@@ -11,7 +11,7 @@ confinement: strict
 grade: stable
 apps:
     kexi:
-        command: kf5-launch kbounce
+        command: kf5-launch kbreakout
         plugs:
         - kde-frameworks-5-plug
         - home
