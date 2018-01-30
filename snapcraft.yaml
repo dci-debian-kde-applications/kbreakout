@@ -1,0 +1,48 @@
+---
+name: kbreakout
+version: 17.08.1
+summary: ball and paddle game
+description: |-
+ kbreakout is a game similar to the classics breakout and xboing, featuring
+ a number of added graphical enhancements and effects.  You control a paddle
+ at the bottom of the playing-field, and must destroy bricks at the top
+ by bouncing balls against them.
+confinement: strict
+grade: stable
+apps:
+    kbreakout:
+        command: kf5-launch kbreakout
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kbreakout:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - kio-dev
+        - libkf5kdegames-dev
+        - libkf5kdelibs4support-dev
+        source: https://download.kde.org/stable/applications/17.08.1/src/kbreakout-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
